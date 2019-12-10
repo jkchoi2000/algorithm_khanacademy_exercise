@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f09e991-d865-4221-9dd3-b0c0c285609a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mine/jkchoi/algorithm/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mine/jkchoi/algorithm/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/mine/jkchoi/algorithm/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/mine/jkchoi/algorithm/InsertionSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="19" column="89" selection-start-line="19" selection-start-column="89" selection-end-line="19" selection-end-column="89" />
+            <state relative-caret-position="188">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,11 +27,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mine/jkchoi/algorithm/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+            <state relative-caret-position="150">
+              <caret line="10" column="21" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="10" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/mine/jkchoi/algorithm/BubbleSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -49,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mine/jkchoi/algorithm/InsertionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="34" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="11" selection-end-column="34" />
+            <state relative-caret-position="75">
+              <caret line="5" column="43" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="5" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -72,8 +80,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/mine/jkchoi/algorithm/BinarySearcher.java" />
         <option value="$PROJECT_DIR$/src/mine/jkchoi/algorithm/InsertionSort.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/mine/jkchoi/algorithm/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/mine/jkchoi/algorithm/BubbleSort.java" />
       </list>
     </option>
   </component>
@@ -124,7 +133,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575961233231" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575962086906" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -170,12 +179,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574306663680</updated>
-      <workItem from="1574306666725" duration="11050000" />
+      <workItem from="1574306666725" duration="12016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11050000" />
+    <option name="totallyTimeSpent" value="12016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="40" width="1440" height="797" extended-state="0" />
@@ -196,7 +205,7 @@
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3280116" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32946298" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3280116" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -227,15 +236,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mine/jkchoi/algorithm/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="34" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="11" selection-end-column="34" />
+        <state relative-caret-position="75">
+          <caret line="5" column="43" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="5" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="89" selection-start-line="19" selection-start-column="89" selection-end-line="19" selection-end-column="89" />
+        <state relative-caret-position="188">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -244,8 +253,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mine/jkchoi/algorithm/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+        <state relative-caret-position="150">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mine/jkchoi/algorithm/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
         </state>
       </provider>
     </entry>

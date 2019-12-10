@@ -19,6 +19,10 @@ public class Main {
         final int[] mergeSortArray = new int[]{5, 2, 4, 7, 6, 1, 3, 8};
         System.out.println(Arrays.toString(mergeSortArray) + " => " + Arrays.toString(MergeSort.sort(mergeSortArray)));
 
+        //버블 정렬
+        final int[] bubbleSortArray = new int[]{5, 2, 4, 7, 6, 1, 3, 8};
+        System.out.println(Arrays.toString(bubbleSortArray) + " => " + Arrays.toString(MergeSort.sort(bubbleSortArray)));
+
     }
 }
 
