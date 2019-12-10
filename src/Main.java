@@ -1,6 +1,7 @@
 import mine.jkchoi.algorithm.BinarySearcher;
 import mine.jkchoi.algorithm.InsertionSort;
 import mine.jkchoi.algorithm.MergeSort;
+import mine.jkchoi.algorithm.SelectionSort;
 
 import java.util.Arrays;
 
@@ -12,16 +13,25 @@ public class Main {
         System.out.println(BinarySearcher.search(primes, 67));
 
         //삽입 정렬
+        System.out.println("삽입 정렬");
         final int[] insertionSortArray = new int[]{5, 6, 1, 2, 4, 3};
         System.out.println(Arrays.toString(insertionSortArray) + " => " + Arrays.toString(InsertionSort.sort(insertionSortArray)));
 
         //합병 (머지, 병합) 정렬
+        System.out.println("병합 정렬");
         final int[] mergeSortArray = new int[]{5, 2, 4, 7, 6, 1, 3, 8};
         System.out.println(Arrays.toString(mergeSortArray) + " => " + Arrays.toString(MergeSort.sort(mergeSortArray)));
 
         //버블 정렬
+        System.out.println("버블 정렬");
         final int[] bubbleSortArray = new int[]{5, 2, 4, 7, 6, 1, 3, 8};
         System.out.println(Arrays.toString(bubbleSortArray) + " => " + Arrays.toString(MergeSort.sort(bubbleSortArray)));
+
+        //선택 정렬
+        System.out.println("선택 정렬");
+        final int[] selectionSortArray = new int[]{5, 2, 4, 7, 6, 1, 3, 8};
+        System.out.println(Arrays.toString(selectionSortArray) + " => " + Arrays.toString(SelectionSort.sort(selectionSortArray)));
+
 
     }
 }
