@@ -1,4 +1,4 @@
-package mine.jkchoi.algorithm;
+package mine.jkchoi.algorithm.sort;
 
 import java.util.Arrays;
 

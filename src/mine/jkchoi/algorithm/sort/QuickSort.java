@@ -1,4 +1,4 @@
-package mine.jkchoi.algorithm;
+package mine.jkchoi.algorithm.sort;
 
 public class QuickSort {
     public static int[] sort(int[] array) {

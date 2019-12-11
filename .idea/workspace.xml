@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f09e991-d865-4221-9dd3-b0c0c285609a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mine/jkchoi/algorithm/CountingSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mine/jkchoi/algorithm/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mine/jkchoi/algorithm/sort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mine/jkchoi/algorithm/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mine/jkchoi/algorithm/sort/CountingSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mine/jkchoi/algorithm/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mine/jkchoi/algorithm/sort/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mine/jkchoi/algorithm/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mine/jkchoi/algorithm/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mine/jkchoi/algorithm/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mine/jkchoi/algorithm/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mine/jkchoi/algorithm/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mine/jkchoi/algorithm/sort/SelectionSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="173">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,16 +32,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mine/jkchoi/algorithm/BubbleSort.java">
+        <entry file="file://$PROJECT_DIR$/src/mine/jkchoi/algorithm/sort/BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
+            <state relative-caret-position="90">
               <caret line="6" column="9" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="6" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mine/jkchoi/algorithm/SelectionSort.java">
+        <entry file="file://$PROJECT_DIR$/src/mine/jkchoi/algorithm/sort/SelectionSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="9" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="6" selection-end-column="9" />
@@ -47,7 +50,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mine/jkchoi/algorithm/QuickSort.java">
+        <entry file="file://$PROJECT_DIR$/src/mine/jkchoi/algorithm/sort/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="630">
               <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
@@ -56,10 +59,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mine/jkchoi/algorithm/CountingSort.java">
+        <entry file="file://$PROJECT_DIR$/src/mine/jkchoi/algorithm/sort/CountingSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
               <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mine/jkchoi/algorithm/sort/InsertionSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="43" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="5" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/mine/jkchoi/algorithm/sort/MergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -87,6 +108,10 @@
         <option value="$PROJECT_DIR$/src/mine/jkchoi/algorithm/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/mine/jkchoi/algorithm/CountingSort.java" />
+        <option value="$PROJECT_DIR$/src/mine/jkchoi/algorithm/sort/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/mine/jkchoi/algorithm/sort/CountingSort.java" />
+        <option value="$PROJECT_DIR$/src/mine/jkchoi/algorithm/sort/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/mine/jkchoi/algorithm/sort/MergeSort.java" />
       </list>
     </option>
   </component>
@@ -128,6 +153,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -137,9 +169,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576046063482" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576046931698" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="mine.jkchoi.algorithm.sort" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="mine.jkchoi.algorithm" />
     </key>
@@ -183,12 +218,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574306663680</updated>
-      <workItem from="1574306666725" duration="21229000" />
+      <workItem from="1574306666725" duration="21917000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21229000" />
+    <option name="totallyTimeSpent" value="21917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="40" width="1440" height="797" extended-state="0" />
@@ -199,7 +234,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -207,7 +242,7 @@
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3280116" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3280116" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.3280116" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
@@ -238,55 +273,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mine/jkchoi/algorithm/InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="43" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mine/jkchoi/algorithm/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mine/jkchoi/algorithm/SelectionSort.java">
+    <entry file="file://$PROJECT_DIR$/src/mine/jkchoi/algorithm/sort/SelectionSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="9" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="6" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mine/jkchoi/algorithm/QuickSort.java">
+    <entry file="file://$PROJECT_DIR$/src/mine/jkchoi/algorithm/sort/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mine/jkchoi/algorithm/BubbleSort.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
+        <state relative-caret-position="173">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mine/jkchoi/algorithm/sort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
           <caret line="6" column="9" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="6" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mine/jkchoi/algorithm/CountingSort.java">
+    <entry file="file://$PROJECT_DIR$/src/mine/jkchoi/algorithm/sort/CountingSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/mine/jkchoi/algorithm/sort/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" column="43" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mine/jkchoi/algorithm/sort/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>

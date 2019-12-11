@@ -1,4 +1,4 @@
-package mine.jkchoi.algorithm;
+package mine.jkchoi.algorithm.sort;
 
 public class BubbleSort {
     public static int[] sort(int[] array) {
