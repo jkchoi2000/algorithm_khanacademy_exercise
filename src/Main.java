@@ -1,4 +1,4 @@
-import mine.jkchoi.algorithm.*;
+import mine.jkchoi.algorithm.BinarySearcher;
 import mine.jkchoi.algorithm.sort.*;
 
 import java.util.Arrays;
@@ -39,6 +39,11 @@ public class Main {
         System.out.println("계수 정렬");
         final int[] countingSortArray = new int[]{5, 2, 4, 7, 6, 1, 3, 8, 7, 4, 8};
         System.out.println(Arrays.toString(countingSortArray) + " => " + Arrays.toString(CountingSort.sort(countingSortArray)));
+
+        //기수 정렬
+        System.out.println("기수 정렬");
+        final int[] radixSortArray = new int[]{5, 12, 34, 567, 36, 1423, 353, 48, 37, 534, 86548};
+        System.out.println(Arrays.toString(radixSortArray) + " => " + Arrays.toString(RadixSort.sort(radixSortArray)));
 
     }
 }
