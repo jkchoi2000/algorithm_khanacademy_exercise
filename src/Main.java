@@ -34,6 +34,11 @@ public class Main {
         final int[] quickSortArray = new int[]{5, 2, 4, 7, 6, 1, 3, 8, 9, 12, 22, 11, 3, 4, 11, 25, 2};
         System.out.println(Arrays.toString(quickSortArray) + " => " + Arrays.toString(QuickSort.sort(quickSortArray)));
 
+        //계수 정렬
+        System.out.println("계수 정렬");
+        final int[] countingSortArray = new int[]{5, 2, 4, 7, 6, 1, 3, 8, 7, 4, 8};
+        System.out.println(Arrays.toString(countingSortArray) + " => " + Arrays.toString(CountingSort.sort(countingSortArray)));
+
     }
 }
 
