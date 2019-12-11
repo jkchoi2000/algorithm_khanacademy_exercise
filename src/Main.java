@@ -1,7 +1,4 @@
-import mine.jkchoi.algorithm.BinarySearcher;
-import mine.jkchoi.algorithm.InsertionSort;
-import mine.jkchoi.algorithm.MergeSort;
-import mine.jkchoi.algorithm.SelectionSort;
+import mine.jkchoi.algorithm.*;
 
 import java.util.Arrays;
 
@@ -32,6 +29,10 @@ public class Main {
         final int[] selectionSortArray = new int[]{5, 2, 4, 7, 6, 1, 3, 8};
         System.out.println(Arrays.toString(selectionSortArray) + " => " + Arrays.toString(SelectionSort.sort(selectionSortArray)));
 
+        //퀵 정렬
+        System.out.println("퀵 정렬");
+        final int[] quickSortArray = new int[]{5, 2, 4, 7, 6, 1, 3, 8, 9, 12, 22, 11, 3, 4, 11, 25, 2};
+        System.out.println(Arrays.toString(quickSortArray) + " => " + Arrays.toString(QuickSort.sort(quickSortArray)));
 
     }
 }
