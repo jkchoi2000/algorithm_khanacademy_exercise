@@ -1,6 +1,7 @@
 import mine.jkchoi.algorithm.BinarySearcher;
 import mine.jkchoi.algorithm.recursion.ArraySum;
 import mine.jkchoi.algorithm.recursion.BinaryPrinter;
+import mine.jkchoi.algorithm.recursion.DivideConquerSum;
 import mine.jkchoi.algorithm.sort.*;
 
 import java.util.Arrays;
@@ -69,6 +70,11 @@ public class Main {
         System.out.println("배수에 포함된 항목들의 합");
         final int[] summingArray = new int[]{1, 10, 2, 20, 3, 30};
         System.out.println(Arrays.toString(summingArray) + " => " + ArraySum.sum(summingArray));
+
+        // 입력 숫자까지의 합
+        System.out.println("입력 숫자까지의 합");
+        int summinInput = 1000;
+        System.out.println(summinInput + " => " + DivideConquerSum.sum(summinInput));
     }
 }
 
