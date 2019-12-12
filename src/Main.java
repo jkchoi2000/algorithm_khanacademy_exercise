@@ -2,6 +2,7 @@ import mine.jkchoi.algorithm.BinarySearcher;
 import mine.jkchoi.algorithm.recursion.ArraySum;
 import mine.jkchoi.algorithm.recursion.BinaryPrinter;
 import mine.jkchoi.algorithm.recursion.DivideConquerSum;
+import mine.jkchoi.algorithm.recursion.FibonacciList;
 import mine.jkchoi.algorithm.sort.*;
 
 import java.util.Arrays;
@@ -75,6 +76,11 @@ public class Main {
         System.out.println("입력 숫자까지의 합");
         int summinInput = 1000;
         System.out.println(summinInput + " => " + DivideConquerSum.sum(summinInput));
+
+        //피보나치 수열
+        System.out.println("피보나치 수열");
+        int fibonacciLength = 9;
+        System.out.println(fibonacciLength + " => " + Arrays.toString(FibonacciList.list(fibonacciLength)));
     }
 }
 
